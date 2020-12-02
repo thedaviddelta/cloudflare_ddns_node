@@ -1,0 +1,11 @@
+{
+  "name": "cloudflare_ddns_node",
+  "version": "1.0.0",
+  "description": "Dynamically update DNS record on IP change using Cloudflare API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "TheDavidDelta",
+  "license": "GPL-3.0-or-later"
+}
