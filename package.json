@@ -8,6 +8,10 @@
   },
   "author": "TheDavidDelta",
   "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheDavidDelta/cloudflare_ddns_node"
+  },
   "dependencies": {
     "axios": "^0.21.0",
     "cloudflare": "^2.7.0",

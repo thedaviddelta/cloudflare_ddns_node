@@ -31,7 +31,7 @@
         .then(res => res.data.trim())
         .catch(error => log(
             error.response
-                ? `${error.response.status} - ${error.response.status}: ${JSON.stringify(error.response.data)}`
+                ? `${error.response.status} - ${error.response.statusText}: ${JSON.stringify(error.response.data)}`
                 : error.message ?? JSON.stringify(error.config)
         ));
     
