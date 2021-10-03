@@ -25,7 +25,7 @@ Now create a `.env` file with the following fields
 ```
 TOKEN=your cloudflare token
 ZONE=the zone where the record is
-RECORD=the record name
+RECORDS=comma separated list of record names
 ```
 You can generate a Cloudflare Token [here](https://dash.cloudflare.com/profile/api-tokens)
 

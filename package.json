@@ -1,6 +1,6 @@
 {
   "name": "cloudflare_ddns_node",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Dynamically update DNS record on IP change using Cloudflare API",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,8 @@
     "url": "https://github.com/TheDavidDelta/cloudflare_ddns_node"
   },
   "dependencies": {
-    "axios": "^0.21.0",
-    "cloudflare": "^2.7.0",
-    "dotenv": "^8.2.0"
+    "axios": "^0.22.0",
+    "cloudflare": "^2.9.1",
+    "dotenv": "^10.0.0"
   }
 }
